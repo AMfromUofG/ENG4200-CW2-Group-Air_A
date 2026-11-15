@@ -1,6 +1,6 @@
 # ENG4200 CW2 — Group Air A
 
-We use `air-quality.csv` to compare models that predict carbon monoxide (CO) levels. The main notebook is [`CW2_Air_A.ipynb`](CW2_Air_A.ipynb).
+We use `air-quality.csv` to compare models that predict carbon monoxide (CO) levels. The main notebook is [`ENG4200_CW2_notebook_AIR_A.ipynb`](ENG4200_CW2_notebook_AIR_A.ipynb).
 
 Follow these steps to run the notebook in **VS Code** on Windows or macOS.
 
@@ -34,7 +34,7 @@ You install Git once on your computer. Cloning creates a local copy of the team�
 
 3. Choose where to save the project, such as **Documents**. When VS Code asks whether to open the cloned project, click **Open**. Sign in to GitHub if prompted.
 
-Once the folder is open, click **Explorer**, the files icon on the left. You should see `CW2_Air_A.ipynb`, `requirements.txt`, and `air-quality.csv`.
+Once the folder is open, click **Explorer**, the files icon on the left. You should see `ENG4200_CW2_notebook_AIR_A.ipynb`, `requirements.txt`, and `air-quality.csv`.
 
 Click **Terminal → New Terminal** in the top menu. Run this command in the panel that opens at the bottom.
 
@@ -69,7 +69,7 @@ If the second command can’t find `requirements.txt`, check that the project fo
 ## 4. Run the notebook
 
 1. Click **Extensions** in the left sidebar. Search for and install **Python** and **Jupyter**, both published by Microsoft.
-2. Click **Explorer** in the left sidebar and open `CW2_Air_A.ipynb`.
+2. Click **Explorer** in the left sidebar and open `ENG4200_CW2_notebook_AIR_A.ipynb`.
 3. Click **Select Kernel** in the top-right corner of the notebook. If needed, click **Select Another Kernel → Python Environments**. Choose the `.venv` for this project. Its Python path ends in `.venv\Scripts\python.exe` on Windows or `.venv/bin/python` on macOS.
 4. Click the play button next to the first code cell under **Import all necessary libraries**. If it runs successfully, run the rest of the cells from top to bottom. Some model-training cells take a while.
 
